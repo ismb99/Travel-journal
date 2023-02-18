@@ -1,3 +1,23 @@
 img {
   width: 250px;
 }
+
+.container {
+  width: 899px;
+  height: 700px;
+  border: green solid 2px;
+}
+
+.nav {
+  background-color: #f55a5a;
+  text-align: center;
+  color: white;
+  padding: 8px 20px;
+}
+
+.travel-info {
+  margin-top: 20px;
+  margin-left: 20px;
+  border: red solid 2px;
+  display: flex;
+}
