@@ -1,7 +1,8 @@
-export default function Header() {
+export default function Header(props) {
   return (
-    <div className="nav">
-      <p>my travel journal.</p>
-    </div>
+    <header className="nav">
+      <img src={props.image} alt="" />
+      <p>{props.title}</p>
+    </header>
   );
 }
